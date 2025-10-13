@@ -291,3 +291,106 @@ body.donasi {
     position: absolute;
     cursor: pointer;
 }
+
+
+/* barang.php */
+div.barang-menu {
+    background: rgba(255, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    color: black;
+    width: 75%;
+    height: 500px;
+    margin: 20px auto;
+}
+
+div h2 {
+    color: black;
+    justify-self: center;
+    margin-bottom: 20px;
+}
+
+form.barang-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+form.barang-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+table.barang-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+button.barang-dash {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #118ab2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.barang-dash:hover {
+    background: #073b4c;
+}
+
+/* ruangan.php */
+div.ruangan-menu {
+    background: rgba(255, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    color: black;
+    width: 75%;
+    height: 500px;
+    margin: 20px auto;
+}
+
+div h2 {
+    color: black;
+    justify-self: center;
+    margin-bottom: 20px;
+}
+
+form.ruangan-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+form.ruangan-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+table.ruangan-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+button.ruangan-dash {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #118ab2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.ruangan-dash:hover {
+    background: #073b4c;
+}
